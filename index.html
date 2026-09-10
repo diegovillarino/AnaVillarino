@@ -1,990 +1,195 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ana Paula Villarino | Fotógrafa de Bodas y Eventos en Buenos Aires</title>
-  <meta name="description" content="Fotografía profesional documental para bodas, civiles, 15 años y familias en Buenos Aires (CABA, Zona Norte, GBA). Capturando momentos espontáneos y auténticos.">
-  <meta name="keywords" content="fotografia de bodas buenos aires, fotografo de casamientos, fotos de civil, book de 15 años, fotografia familiar, fotografo pilar san isidro">
-  <meta name="author" content="Ana Paula Villarino">
-  <link rel="canonical" href="https://anavillarino.com/">
-
-  <!-- Open Graph / Facebook / WhatsApp -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://anavillarino.com/">
-  <meta property="og:title" content="Ana Paula Villarino | Fotógrafa de Bodas en Buenos Aires">
-  <meta property="og:description" content="Fotografía documental y espontánea de bodas, civiles y momentos especiales en Buenos Aires.">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-  <!-- Schema.org JSON-LD (SEO Técnico) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Photographer",
-    "name": "Ana Paula Villarino Fotografía",
-    "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
-    "@id": "https://anavillarino.com",
-    "url": "https://anavillarino.com",
-    "telephone": "+5491100000000",
-    "priceRange": "$$$",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Buenos Aires",
-      "addressCountry": "AR"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": -34.603722,
-      "longitude": -58.381592
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
-      ],
-      "opens": "09:00",
-      "closes": "20:00"
-    },
-    "sameAs": [
-      "https://www.instagram.com/anavillarino"
-    ],
-    "areaServed": [
-      "Buenos Aires",
-      "Ciudad Autónoma de Buenos Aires",
-      "Zona Norte",
-      "Pilar",
-      "San Isidro",
-      "Tigre"
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [{
-      "@type": "Question",
-      "name": "¿Con cuánta anticipación debo reservar la fecha de la boda?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Se recomienda reservar entre 6 y 12 meses antes para bodas, especialmente en temporada alta (septiembre a abril). Para civiles o sesiones familiares, se puede coordinar con 1 a 2 meses de anticipación."
-      }
-    },{
-      "@type": "Question",
-      "name": "¿En qué zonas de Buenos Aires prestás servicio?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Realizo coberturas en CABA, Zona Norte (Pilar, San Isidro, Tigre, Vicente López), Zona Oeste y Zona Sur. También realizo viajes a otras provincias de Argentina según el evento."
-      }
-    },{
-      "@type": "Question",
-      "name": "¿Cuál es tu estilo de fotografía de bodas?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Mi enfoque es documental y narrativo. Busco capturar la emoción y los momentos espontáneos sin poses forzadas, privilegiando la luz natural y los detalles auténticos."
-      }
-    }]
-  }
-  </script>
-
-  <style>
-    :root {
-      --font-heading: 'Cormorant Garamond', serif;
-      --font-body: 'Montserrat', sans-serif;
-      --bg-color: #FAFAFA;
-      --card-bg: #FFFFFF;
-      --text-main: #2C2C2C;
-      --text-muted: #666666;
-      --accent: #A38A69;
-      --accent-hover: #866F52;
-      --dark-bg: #1A1A1A;
-      --border-color: #E2E2E2;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: var(--font-body);
-      background-color: var(--bg-color);
-      color: var(--text-main);
-      line-height: 1.6;
-    }
-
-    h1, h2, h3, h4 {
-      font-family: var(--font-heading);
-      font-weight: 600;
-      letter-spacing: 0.5px;
-    }
-
-    a {
-      text-decoration: none;
-      color: inherit;
-      transition: all 0.3s ease;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    .container {
-      width: 90%;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .section-padding {
-      padding: 80px 0;
-    }
-
-    .section-title {
-      font-size: 2.8rem;
-      text-align: center;
-      margin-bottom: 15px;
-      color: var(--text-main);
-    }
-
-    .section-subtitle {
-      text-align: center;
-      font-size: 1rem;
-      color: var(--text-muted);
-      margin-bottom: 50px;
-      max-width: 650px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    /* --- Navbar --- */
-    .header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background-color: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(8px);
-      z-index: 1000;
-      border-bottom: 1px solid var(--border-color);
-    }
-
-    .nav-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 75px;
-    }
-
-    .logo {
-      font-family: var(--font-heading);
-      font-size: 1.8rem;
-      font-weight: 600;
-      letter-spacing: 2px;
-      color: var(--text-main);
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 25px;
-      list-style: none;
-    }
-
-    .nav-links a {
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      font-weight: 500;
-      color: var(--text-main);
-    }
-
-    .nav-links a:hover {
-      color: var(--accent);
-    }
-
-    .btn-primary {
-      background-color: var(--accent);
-      color: #FFF;
-      padding: 12px 28px;
-      border-radius: 2px;
-      font-size: 0.85rem;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      display: inline-block;
-      border: 1px solid var(--accent);
-    }
-
-    .btn-primary:hover {
-      background-color: var(--accent-hover);
-      border-color: var(--accent-hover);
-    }
-
-    .btn-secondary {
-      background-color: transparent;
-      color: var(--text-main);
-      padding: 12px 28px;
-      border-radius: 2px;
-      font-size: 0.85rem;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      display: inline-block;
-      border: 1px solid var(--text-main);
-    }
-
-    .btn-secondary:hover {
-      background-color: var(--text-main);
-      color: #FFF;
-    }
-
-    /* --- Hero Section --- */
-    .hero {
-      height: 100vh;
-      min-height: 600px;
-      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: #FFF;
-      padding-top: 75px;
-    }
-
-    .hero-content h1 {
-      font-size: 3.5rem;
-      margin-bottom: 20px;
-      line-height: 1.2;
-    }
-
-    .hero-content p {
-      font-size: 1.2rem;
-      font-weight: 300;
-      margin-bottom: 35px;
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .hero-buttons {
-      display: flex;
-      gap: 15px;
-      justify-content: center;
-    }
-
-    .hero-buttons .btn-secondary {
-      color: #FFF;
-      border-color: #FFF;
-    }
-
-    .hero-buttons .btn-secondary:hover {
-      background-color: #FFF;
-      color: var(--text-main);
-    }
-
-    /* --- Servicios --- */
-    .services-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 30px;
-    }
-
-    .service-card {
-      background: var(--card-bg);
-      padding: 35px 25px;
-      border-radius: 4px;
-      border: 1px solid var(--border-color);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .service-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-    }
-
-    .service-card h3 {
-      font-size: 1.8rem;
-      margin-bottom: 15px;
-      color: var(--text-main);
-    }
-
-    .service-card p {
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      margin-bottom: 20px;
-    }
-
-    .service-card ul {
-      list-style: none;
-      font-size: 0.85rem;
-      color: var(--text-muted);
-    }
-
-    .service-card ul li {
-      margin-bottom: 8px;
-      position: relative;
-      padding-left: 15px;
-    }
-
-    .service-card ul li::before {
-      content: "•";
-      color: var(--accent);
-      position: absolute;
-      left: 0;
-      font-size: 1.2rem;
-      line-height: 1;
-    }
-
-    /* --- Portfolio --- */
-    .filter-buttons {
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-      margin-bottom: 40px;
-      flex-wrap: wrap;
-    }
-
-    .filter-btn {
-      background: none;
-      border: none;
-      font-family: var(--font-body);
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      padding: 8px 16px;
-      cursor: pointer;
-      color: var(--text-muted);
-      border-bottom: 2px solid transparent;
-      transition: all 0.3s ease;
-    }
-
-    .filter-btn.active, .filter-btn:hover {
-      color: var(--accent);
-      border-bottom-color: var(--accent);
-    }
-
-    .portfolio-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 25px;
-    }
-
-    .portfolio-item {
-      position: relative;
-      overflow: hidden;
-      border-radius: 3px;
-      background-color: #000;
-      aspect-ratio: 4 / 3;
-    }
-
-    .portfolio-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform 0.5s ease, opacity 0.5s ease;
-      opacity: 0.9;
-    }
-
-    .portfolio-item:hover img {
-      transform: scale(1.05);
-      opacity: 0.7;
-    }
-
-    .portfolio-overlay {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      padding: 20px;
-      background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
-      color: #FFF;
-      transform: translateY(10px);
-      opacity: 0;
-      transition: all 0.3s ease;
-    }
-
-    .portfolio-item:hover .portfolio-overlay {
-      transform: translateY(0);
-      opacity: 1;
-    }
-
-    .portfolio-overlay h4 {
-      font-size: 1.4rem;
-    }
-
-    .portfolio-overlay p {
-      font-size: 0.85rem;
-      opacity: 0.8;
-    }
-
-    /* --- Sobre Mí --- */
-    .about-wrapper {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 50px;
-      align-items: center;
-    }
-
-    .about-img img {
-      border-radius: 4px;
-      box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-    }
-
-    .about-text h2 {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-    }
-
-    .about-text p {
-      margin-bottom: 18px;
-      color: var(--text-muted);
-      font-size: 1rem;
-    }
-
-    .about-highlights {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      margin-top: 30px;
-      padding-top: 20px;
-      border-top: 1px solid var(--border-color);
-    }
-
-    .highlight-item h4 {
-      font-size: 1.5rem;
-      color: var(--accent);
-    }
-
-    .highlight-item p {
-      font-size: 0.85rem;
-      margin-bottom: 0;
-    }
-
-    /* --- Testimonios --- */
-    .testimonials {
-      background-color: #F3F1ED;
-    }
-
-    .testimonial-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 30px;
-    }
-
-    .testimonial-card {
-      background: var(--card-bg);
-      padding: 30px;
-      border-radius: 4px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.03);
-    }
-
-    .testimonial-card p {
-      font-style: italic;
-      color: var(--text-muted);
-      margin-bottom: 20px;
-      font-size: 0.95rem;
-    }
-
-    .testimonial-card h5 {
-      font-size: 1.1rem;
-      font-family: var(--font-body);
-      font-weight: 600;
-    }
-
-    .testimonial-card span {
-      font-size: 0.8rem;
-      color: var(--accent);
-    }
-
-    /* --- FAQ --- */
-    .faq-wrapper {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .faq-item {
-      border-bottom: 1px solid var(--border-color);
-      padding: 20px 0;
-    }
-
-    .faq-question {
-      font-size: 1.2rem;
-      font-weight: 500;
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-family: var(--font-heading);
-    }
-
-    .faq-answer {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.3s ease;
-      color: var(--text-muted);
-      font-size: 0.95rem;
-      margin-top: 0;
-    }
-
-    .faq-item.active .faq-answer {
-      max-height: 200px;
-      margin-top: 12px;
-    }
-
-    .faq-toggle {
-      font-size: 1.5rem;
-      color: var(--accent);
-    }
-
-    /* --- Contacto --- */
-    .contact-wrapper {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 50px;
-    }
-
-    .contact-info h3 {
-      font-size: 2rem;
-      margin-bottom: 15px;
-    }
-
-    .contact-info p {
-      color: var(--text-muted);
-      margin-bottom: 25px;
-    }
-
-    .contact-details {
-      list-style: none;
-      margin-bottom: 30px;
-    }
-
-    .contact-details li {
-      margin-bottom: 12px;
-      font-size: 0.95rem;
-    }
-
-    .contact-form form {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-
-    .form-group input, .form-group textarea, .form-group select {
-      width: 100%;
-      padding: 12px 15px;
-      border: 1px solid var(--border-color);
-      border-radius: 2px;
-      font-family: var(--font-body);
-      font-size: 0.9rem;
-      outline: none;
-    }
-
-    .form-group input:focus, .form-group textarea:focus {
-      border-color: var(--accent);
-    }
-
-    /* --- Footer --- */
-    .footer {
-      background-color: var(--dark-bg);
-      color: #A0A0A0;
-      padding: 40px 0;
-      text-align: center;
-      font-size: 0.85rem;
-    }
-
-    .footer a {
-      color: #FFF;
-    }
-
-    /* Floating WhatsApp */
-    .whatsapp-btn {
-      position: fixed;
-      bottom: 25px;
-      right: 25px;
-      background-color: #25D366;
-      color: white;
-      width: 55px;
-      height: 55px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      z-index: 1000;
-      font-size: 1.8rem;
-    }
-
-    .whatsapp-btn:hover {
-      transform: scale(1.1);
-      color: white;
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      .nav-links { display: none; }
-      .hero-content h1 { font-size: 2.3rem; }
-      .about-wrapper, .contact-wrapper { grid-template-columns: 1fr; }
-      .section-title { font-size: 2.2rem; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Villarino</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background-color: #ffffff;
+            font-family: 'Jost', 'Futura', 'Century Gothic', 'Segoe UI', sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 60px 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo-img {
+            max-width: 260px;
+            width: 100%;
+            margin-bottom: 16px;
+        }
+
+        .logo-text {
+            font-family: inherit;
+            font-size: 30px;
+            font-weight: 300;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #999999;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+
+        .tagline {
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #aaaaaa;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .links {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .column-title {
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #111111;
+            text-align: center;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(17, 17, 17, 0.15);
+        }
+
+        .link-card {
+            display: block;
+            text-align: center;
+            padding: 14px 20px;
+            border: 1px solid rgba(17, 17, 17, 0.35);
+            border-radius: 2px;
+            text-decoration: none;
+            color: #111111;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all 0.25s ease;
+        }
+
+        .link-card:hover {
+            background-color: #111111;
+            color: #ffffff;
+            border-color: #111111;
+        }
+
+        .link-card.secondary {
+            color: #666666;
+            border-color: rgba(17, 17, 17, 0.18);
+        }
+
+        .link-card.secondary:hover {
+            background-color: #111111;
+            color: #ffffff;
+            border-color: #111111;
+        }
+
+        .social {
+            margin-top: 44px;
+            display: flex;
+            gap: 24px;
+        }
+
+        .social a svg {
+            fill: #aaaaaa;
+            height: 30px;
+            opacity: 1;
+            width: 30px;
+            transition: fill 0.25s ease;
+        }
+
+        .social a:hover svg {
+            fill: #111111;
+        }
+
+        @media (max-width: 480px) {
+            .links {
+                grid-template-columns: 1fr;
+            }
+
+            body {
+                padding: 40px 16px;
+            }
+
+            .logo-text {
+                font-size: 24px;
+            }
+        }
+    </style>
 </head>
 <body>
-
-  <!-- HEADER / NAV -->
-  <header class="header">
-    <div class="container nav-container">
-      <a href="#inicio" class="logo">ANA VILLARINO</a>
-      <ul class="nav-links">
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#sobre-mi">Sobre Mí</a></li>
-        <li><a href="#faq">Preguntas</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-      <a href="#contacto" class="btn-primary">Consultar Fecha</a>
-    </div>
-  </header>
-
-  <!-- HERO SECTION -->
-  <section id="inicio" class="hero">
-    <div class="container hero-content">
-      <h1>Fotografía de Bodas & Historias Reales en Buenos Aires</h1>
-      <p>Cobertura documental, emotiva y espontánea para casamientos, civiles y celebraciones únicas en CABA y GBA.</p>
-      <div class="hero-buttons">
-        <a href="#portfolio" class="btn-primary">Ver Portfolio</a>
-        <a href="#contacto" class="btn-secondary">Contactar</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- SERVICIOS (SEO Categorías) -->
-  <section id="servicios" class="section-padding">
     <div class="container">
-      <h2 class="section-title">Servicios de Fotografía</h2>
-      <p class="section-subtitle">Acompaño cada paso de tu evento con una mirada atenta a los detalles, la luz y las emociones sin poses forzadas.</p>
-
-      <div class="services-grid">
-        <div class="service-card">
-          <h3>Bodas & Casamientos</h3>
-          <p>Cobertura completa desde los preparativos (Getting Ready), ceremonia religiosa o al aire libre, hasta el final de la fiesta.</p>
-          <ul>
-            <li>Cobertura documental completa</li>
-            <li>Sesión Pre-Boda / Engaged</li>
-            <li>Galería digital en alta resolución</li>
-            <li>Opción de Cobertura de Video</li>
-          </ul>
-        </div>
-
-        <div class="service-card">
-          <h3>Civiles & Intimates</h3>
-          <p>Fotografía para bodas íntimas, registros de registro civil y producciones en locaciones urbanas o quintas.</p>
-          <ul>
-            <li>Registro de la ceremonia oficial</li>
-            <li>Sesión de retratos de pareja post-civil</li>
-            <li>Festejo / Almuerzo íntimo</li>
-            <li>Entrega rápida para redes</li>
-          </ul>
-        </div>
-
-        <div class="service-card">
-          <h3>15 Años & Books</h3>
-          <p>Books creativos de 15 años en exteriores o estudio, y cobertura fotográfica de la fiesta de quinceañeras.</p>
-          <ul>
-            <li>Books temáticos en exteriores</li>
-            <li>Fotos y Reel de la fiesta</li>
-            <li>Libro de firmas personalizado</li>
-          </ul>
-        </div>
-
-        <div class="service-card">
-          <h3>Maternidad & Familias</h3>
-          <p>Sesiones familiares, bautismos, primer año y retratos de embarazo en entornos naturales o en casa.</p>
-          <ul>
-            <li>Sesiones "Lifestyle" en domicilio</li>
-            <li>Bautismos y Primer Año</li>
-            <li>Retratos familiares espontáneos</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PORTFOLIO / GALERÍA CON FILTROS Y SEO TEXT-->
-  <section id="portfolio" class="section-padding" style="background-color: #F8F8F8;">
-    <div class="container">
-      <h2 class="section-title">Galeria de Trabajos</h2>
-      <p class="section-subtitle">Cada historia es diferente. Mirá algunas de las bodas y eventos recientes registrados en Buenos Aires.</p>
-
-      <div class="filter-buttons">
-        <button class="filter-btn active" onclick="filterPortfolio('all')">Todos</button>
-        <button class="filter-btn" onclick="filterPortfolio('bodas')">Bodas</button>
-        <button class="filter-btn" onclick="filterPortfolio('civiles')">Civiles</button>
-        <button class="filter-btn" onclick="filterPortfolio('15anos')">15 Años</button>
-        <button class="filter-btn" onclick="filterPortfolio('familias')">Familias</button>
-      </div>
-
-      <div class="portfolio-grid">
-        <!-- Item 1 -->
-        <div class="portfolio-item bodas">
-          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Fotografía de Boda de Pilar y Manuel en Pilar Buenos Aires" loading="lazy">
-          <div class="portfolio-overlay">
-            <h4>Pilar & Manuel</h4>
-            <p>Boda al aire libre en Pilar, Buenos Aires</p>
-          </div>
-        </div>
-
-        <!-- Item 2 -->
-        <div class="portfolio-item bodas">
-          <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80" alt="Boda de Sami y Juan casamiento en estancia" loading="lazy">
-          <div class="portfolio-overlay">
-            <h4>Sami & Juan</h4>
-            <p>Fiesta de casamiento en San Isidro</p>
-          </div>
-        </div>
-
-        <!-- Item 3 -->
-        <div class="portfolio-item civiles">
-          <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80" alt="Fotos de registro civil Vanesa y Mariano CABA" loading="lazy">
-          <div class="portfolio-overlay">
-            <h4>Vanesa & Mariano</h4>
-            <p>Civil & Almuerzo en CABA</p>
-          </div>
-        </div>
-
-        <!-- Item 4 -->
-        <div class="portfolio-item 15anos">
-          <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80" alt="Book de 15 años en exteriores Buenos Aires" loading="lazy">
-          <div class="portfolio-overlay">
-            <h4>Inés</h4>
-            <p>Book de 15 Años en exteriores</p>
-          </div>
-        </div>
-
-        <!-- Item 5 -->
-        <div class="portfolio-item familias">
-          <img src="https://images.unsplash.com/photo-1542037104857-ffbb0b9152fb?auto=format&fit=crop&w=800&q=80" alt="Sesion fotográfica familiar y bautismo en Buenos Aires" loading="lazy">
-          <div class="portfolio-overlay">
-            <h4>Familia Rinaldi</h4>
-            <p>Sesión lifestyle y retrato familiar</p>
-          </div>
-        </div>
-
-        <!-- Item 6 -->
-        <div class="portfolio-item bodas">
-          <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=800&q=80" alt="Boda Lina y Andres casamiento en quinta Tigre" loading="lazy">
-          <div class="portfolio-overlay">
-            <h4>Lina & Andrés</h4>
-            <p>Boda de noche en Tigre</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SOBRE MÍ -->
-  <section id="sobre-mi" class="section-padding">
-    <div class="container">
-      <div class="about-wrapper">
-        <div class="about-img">
-          <img src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?auto=format&fit=crop&w=800&q=80" alt="Ana Paula Villarino Fotógrafa de Bodas">
-        </div>
-        <div class="about-text">
-          <h2>Hola, soy Ana Paula Villarino</h2>
-          <p>Soy fotógrafa apasionada por documentar historias de amor y celebraciones familiares en Buenos Aires. Mi objetivo es que disfrutes tu día al máximo mientras me encargo de inmortalizar cada abrazo, mirada y lágrima de alegría de forma natural.</p>
-          <p>No creo en las poses rígidas ni en los momentos forzados. Trabajo con luz natural y edición cuidada para lograr imágenes atemporales que mantengan su valor emotivo con el paso de los años.</p>
-
-          <div class="about-highlights">
-            <div class="highlight-item">
-              <h4>+8 Años</h4>
-              <p>De experiencia en eventos</p>
+        <img src="logo.jpg" alt="Ana Villarino" class="logo-img">
+        <div class="logo-text">Ana Villarino</div>
+        <p class="tagline">Fotografía y Video</p>
+        <div class="links">
+            <div class="column">
+                <div class="column-title">Eventos</div>
+                <a href="https://anavillarino-fotografia.myportfolio.com/" target="_blank" class="link-card">Bodas · 15 Años</a>
+                <a href="https://anavillarino-fotografia.myportfolio.com/contact" target="_blank" class="link-card secondary">Cotizá tu evento</a>
             </div>
-            <div class="highlight-item">
-              <h4>100%</h4>
-              <p>Momentos auténticos y reales</p>
+            <div class="column">
+                <div class="column-title">Marcas</div>
+                <a href="https://anavillarinomarcas.myportfolio.com/" target="_blank" class="link-card">Corporativo · Redes</a>
+                <a href="https://anavillarinomarcas.myportfolio.com/contact" target="_blank" class="link-card secondary">Cotizá tu proyecto</a>
             </div>
-          </div>
         </div>
-      </div>
+        <div class="social">
+            <a href="https://www.instagram.com/anapaulavillarino/" target="_blank" title="Instagram">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24" class="icon">
+                    <g>
+                        <path d="M15,5.4c2.1,0,2.4,0,3.2,0c0.8,0,1.2,0.2,1.5,0.3c0.4,0.1,0.6,0.3,0.9,0.6c0.3,0.3,0.5,0.5,0.6,0.9
+                            c0.1,0.3,0.2,0.7,0.3,1.5c0,0.8,0,1.1,0,3.2s0,2.4,0,3.2c0,0.8-0.2,1.2-0.3,1.5c-0.1,0.4-0.3,0.6-0.6,0.9
+                            c-0.3,0.3-0.5,0.5-0.9,0.6c-0.3,0.1-0.7,0.2-1.5,0.3c-0.8,0-1.1,0-3.2,0s-2.4,0-3.2,0c-0.8,0-1.2-0.2-1.5-0.3
+                            c-0.4-0.1-0.6-0.3-0.9-0.6c-0.3-0.3-0.5-0.5-0.6-0.9c-0.1-0.3-0.2-0.7-0.3-1.5c0-0.8,0-1.1,0-3.2s0-2.4,0-3.2
+                            c0-0.8,0.2-1.2,0.3-1.5c0.1-0.4,0.3-0.6,0.6-0.9c0.3-0.3,0.5-0.5,0.9-0.6c0.3-0.1,0.7-0.2,1.5-0.3
+                            C12.6,5.4,12.9,5.4,15,5.4 M15,4c-2.2,0-2.4,0-3.3,0c-0.9,0-1.4,0.2-1.9,0.4c-0.5,0.2-1,0.5-1.4,0.9
+                            C7.9,5.8,7.6,6.2,7.4,6.8C7.2,7.3,7.1,7.9,7,8.7C7,9.6,7,9.8,7,12s0,2.4,0,3.3c0,0.9,0.2,1.4,0.4,1.9
+                            c0.2,0.5,0.5,1,0.9,1.4c0.4,0.4,0.9,0.7,1.4,0.9c0.5,0.2,1.1,0.3,1.9,0.4c0.9,0,1.1,0,3.3,0s2.4,0,3.3,0
+                            c0.9,0,1.4-0.2,1.9-0.4c0.5-0.2,1-0.5,1.4-0.9c0.4-0.4,0.7-0.9,0.9-1.4c0.2-0.5,0.3-1.1,0.4-1.9c0-0.9,0-1.1,0-3.3
+                            s0-2.4,0-3.3c0-0.9-0.2-1.4-0.4-1.9c-0.2-0.5-0.5-1-0.9-1.4c-0.4-0.4-0.9-0.7-1.4-0.9C17.4,4,17.2,4,15,4L15,4L15,4z"/>
+                        <path d="M15,7.9c-2.3,0-4.1,1.8-4.1,4.1s1.8,4.1,4.1,4.1s4.1-1.8,4.1-4.1S17.3,7.9,15,7.9L15,7.9z M15,14.7
+                            c-1.5,0-2.7-1.2-2.7-2.7c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7C17.7,13.5,16.5,14.7,15,14.7L15,14.7z"/>
+                        <path d="M20.2,7.7c0,0.5-0.4,1-1,1s-1-0.4-1-1s0.4-1,1-1S20.2,7.2,20.2,7.7L20.2,7.7z"/>
+                    </g>
+                </svg>
+            </a>
+            <a href="https://wa.me/5491137869220?text=Hola%20Ana%20soy" target="_blank" title="WhatsApp">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24" class="icon">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.0232 5.97047C19.4251 4.37822 17.2998 3.50089 15.0355 3.5C10.37 3.5 6.57284 7.27871 6.57097 11.9234C6.57035 13.408 6.96014 14.8573 7.70082 16.1347L6.5 20.5L10.9872 19.3286C12.2235 19.9997 13.6154 20.3533 15.0321 20.3539H15.0356C19.7006 20.3539 23.4981 16.5748 23.5 11.9301C23.5009 9.67921 22.6213 7.56273 21.0232 5.97047ZM15.0356 18.9312H15.0327C13.7703 18.9307 12.5321 18.5932 11.452 17.9552L11.195 17.8035L8.53233 18.4986L9.24307 15.9149L9.07577 15.6501C8.37152 14.5353 7.99956 13.2468 8.00011 11.9239C8.00165 8.06344 11.1577 4.92274 15.0384 4.92274C16.9175 4.92345 18.6839 5.6527 20.0122 6.97612C21.3405 8.29954 22.0716 10.0587 22.0709 11.9295C22.0693 15.7902 18.9133 18.9312 15.0356 18.9312ZM18.8946 13.6874C18.6831 13.582 17.6433 13.0728 17.4494 13.0026C17.2555 12.9323 17.1146 12.8972 16.9735 13.1079C16.8326 13.3186 16.4272 13.7927 16.3038 13.9332C16.1805 14.0737 16.0571 14.0913 15.8456 13.9859C15.6341 13.8805 14.9527 13.6583 14.1448 12.9412C13.5161 12.3831 13.0916 11.6938 12.9682 11.4831C12.8449 11.2723 12.9551 11.1584 13.061 11.0535C13.1561 10.9592 13.2725 10.8077 13.3782 10.6847C13.484 10.5618 13.5192 10.474 13.5897 10.3336C13.6602 10.1931 13.625 10.0701 13.5721 9.96479C13.5192 9.85944 13.0963 8.82341 12.92 8.40198C12.7483 7.99154 12.5739 8.04708 12.4441 8.04065C12.3209 8.03455 12.1798 8.03324 12.0388 8.03324C11.8978 8.03324 11.6687 8.08593 11.4748 8.29663C11.2809 8.50736 10.7346 9.01658 10.7346 10.0526C10.7346 11.0886 11.4924 12.0895 11.5982 12.23C11.7039 12.3704 13.0895 14.4965 15.2111 15.4082C15.7157 15.6251 16.1097 15.7546 16.4169 15.8516C16.9235 16.0118 17.3846 15.9892 17.749 15.935C18.1554 15.8746 19.0003 15.4258 19.1766 14.9341C19.3528 14.4425 19.3528 14.021 19.2999 13.9332C19.2471 13.8454 19.1061 13.7927 18.8946 13.6874Z" />
+                </svg>
+            </a>
+        </div>
     </div>
-  </section>
-
-  <!-- TESTIMONIOS -->
-  <section class="section-padding testimonials">
-    <div class="container">
-      <h2 class="section-title">Lo Que Dicen Mis Clientes</h2>
-      <p class="section-subtitle">Reseñas reales de novios y familias que confiaron en mi trabajo.</p>
-
-      <div class="testimonial-grid">
-        <div class="testimonial-card">
-          <p>"Ana captó cada segundo de nuestro casamiento exactamente como lo vivimos. Cuando vimos las fotos volvimos a emocionarnos. ¡Súper profesional y cálida!"</p>
-          <h5>Pilar & Manuel</h5>
-          <span>Boda en Pilar</span>
-        </div>
-
-        <div class="testimonial-card">
-          <p>"Excelente fotógrafa para el civil. Súper puntual, descontracturada y las fotos quedaron hermosas. La recomendamos con los ojos cerrados."</p>
-          <h5>Vanesa & Mariano</h5>
-          <span>Civil en CABA</span>
-        </div>
-
-        <div class="testimonial-card">
-          <p>"Hicimos el book de 15 y la fiesta con Ana. Logró que mi hija se sintiera súper cómoda frente a la cámara. Un recuerdo inolvidable."</p>
-          <h5>Lorena M.</h5>
-          <span>Fiesta de 15 Años</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ (PREGUNTAS FRECUENTES PARA SEO) -->
-  <section id="faq" class="section-padding">
-    <div class="container">
-      <h2 class="section-title">Preguntas Frecuentes</h2>
-      <p class="section-subtitle">Todo lo que necesitas saber antes de contratar el servicio de fotografía.</p>
-
-      <div class="faq-wrapper">
-        <div class="faq-item">
-          <div class="faq-question" onclick="toggleFaq(this)">
-            ¿Con cuánta anticipación debo reservar la fecha?
-            <span class="faq-toggle">+</span>
-          </div>
-          <div class="faq-answer">
-            Para bodas se recomienda reservar con 6 a 12 meses de anticipación, especialmente para la temporada de primavera-verano. Para civiles o sesiones familiares, se puede coordinar con 1 a 2 meses.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-question" onclick="toggleFaq(this)">
-            ¿En qué zonas de Buenos Aires trabajás?
-            <span class="faq-toggle">+</span>
-          </div>
-          <div class="faq-answer">
-            Cubro eventos en CABA, Zona Norte (Pilar, San Isidro, Tigre, Escobar), Zona Oeste y Zona Sur. También realizo coberturas en el interior del país bajo disponibilidad.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-question" onclick="toggleFaq(this)">
-            ¿Cómo y cuándo se entregan las fotografías?
-            <span class="faq-toggle">+</span>
-          </div>
-          <div class="faq-answer">
-            Las fotos se entregan en una galería web privada en alta resolución y optimizadas para compartir en redes. El plazo de entrega es de 15 a 30 días hábiles según el tipo de evento.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-question" onclick="toggleFaq(this)">
-            ¿Ofreces servicio de video además de fotografía?
-            <span class="faq-toggle">+</span>
-          </div>
-          <div class="faq-answer">
-            Sí, cuento con equipo audiovisual para realizar cobertura combinada de Foto + Video / Highlights para redes sociales y video completo del evento.
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACTO -->
-  <section id="contacto" class="section-padding" style="background-color: #F8F8F8;">
-    <div class="container">
-      <div class="contact-wrapper">
-        <div class="contact-info">
-          <h3>¿Hablamos de tu evento?</h3>
-          <p>Contame la fecha, el lugar y qué tipo de cobertura tenés en mente. Te responderé en menos de 24 horas con la propuesta detallada.</p>
-          <ul class="contact-details">
-            <li>📍 **Ubicación:** Buenos Aires, Argentina</li>
-            <li>📧 **Email:** contacto@anavillarino.com</li>
-            <li>📱 **WhatsApp:** +54 9 11 0000-0000</li>
-            <li>📷 **Instagram:** @anavillarino</li>
-          </ul>
-        </div>
-
-        <div class="contact-form">
-          <form onsubmit="event.preventDefault(); alert('¡Gracias por tu mensaje! Me pondré en contacto a la brevedad.');">
-            <div class="form-group">
-              <input type="text" placeholder="Tu Nombre completo" required>
-            </div>
-            <div class="form-group">
-              <input type="email" placeholder="Tu Email de contacto" required>
-            </div>
-            <div class="form-group">
-              <select required>
-                <option value="" disabled selected>Tipo de Evento</option>
-                <option value="boda">Boda Completa</option>
-                <option value="civil">Civil / Boda Íntima</option>
-                <option value="15anos">15 Años</option>
-                <option value="familia">Sesión Familiar / Maternidad</option>
-                <option value="otro">Otro evento</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <input type="text" placeholder="Fecha estimada del evento y locación">
-            </div>
-            <div class="form-group">
-              <textarea rows="4" placeholder="Contame más detalles de lo que estás buscando..."></textarea>
-            </div>
-            <button type="submit" class="btn-primary" style="width: 100%; cursor: pointer;">Enviar Consulta</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2026 Ana Paula Villarino Fotografía. Todos los derechos reservados.</p>
-      <p style="margin-top: 5px; font-size: 0.75rem;">Fotografía de Bodas en Buenos Aires | CABA | Zona Norte</p>
-    </div>
-  </footer>
-
-  <!-- Floating WhatsApp Button -->
-  <a href="https://wa.me/5491100000000?text=Hola%20Ana,%20quisiera%20consultar%20disponibilidad%20para%20una%20fecha" class="whatsapp-btn" target="_blank" aria-label="Contacto por WhatsApp">
-    💬
-  </a>
-
-  <!-- JS Interactivo -->
-  <script>
-    // Filtro de Portfolio
-    function filterPortfolio(category) {
-      const items = document.querySelectorAll('.portfolio-item');
-      const buttons = document.querySelectorAll('.filter-btn');
-
-      buttons.forEach(btn => btn.classList.remove('active'));
-      event.target.classList.add('active');
-
-      items.forEach(item => {
-        if (category === 'all' || item.classList.contains(category)) {
-          item.style.display = 'block';
-        } else {
-          item.style.display = 'none';
-        }
-      });
-    }
-
-    // Toggle Acordeón FAQ
-    function toggleFaq(element) {
-      const item = element.parentElement;
-      const isOpen = item.classList.contains('active');
-      
-      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
-      
-      if (!isOpen) {
-        item.classList.add('active');
-      }
-    }
-  </script>
 </body>
 </html>
